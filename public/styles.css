@@ -1,0 +1,47 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.noUi-base {
+    background: green;
+}
+.noUi-origin.noUi-connect{
+	background: orange;
+}
+.noUi-origin.noUi-background{
+	background: red;
+}
+
+#low {
+    background: green;
+}
+
+#mod{
+	background: orange;
+}
+
+#high{
+	background: red;
+}
+
+#container table {
+    border: 1px solid #444;
+    height: 125px;
+
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+
+    /* just for demo */
+    min-width: 612px;
+}
+
+#container td {
+	 border: 1px solid #444;
+}
+
+#footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+}
